@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <link href="/css/stage4.css" type="text/css" rel="stylesheet" />
+    <title>Stage 5</title>
+    <style>
+      p {
+        color: darkblue;
+      }
+      a {
+        color: darkblue;
+        margin-left: 1%;
+        padding-right: 30px;
+      }
+    </style>
+   
+  </head>
+
+  <body> 
+    <header>
+      <p>"Hi, I'm Debbie and this is my page."</p>
+      <h1>Deb's Notes on Stage 5</h1>
+  <ul>
+    <a id="home" href="/">Home</a>
+    <a id="codepen" href="codepen.html">My Codepen</a>
+    <a id="guestbook" href="guestbook.html">Guestbook</a>
+</ul>
+    </header>
+
+    <script>
+    alert("Woohoo! Test of JavaScript worked!")
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+</script>
+
+      {% block content %}
+      {% endblock %}
+  </body>
+</html>
+

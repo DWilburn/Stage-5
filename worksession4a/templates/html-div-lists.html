@@ -1,0 +1,80 @@
+
+{% extends "base-html.html" %}
+
+{% block content %}
+
+
+
+	<br>
+	<br>
+
+	{% for lessons in lessons %}
+
+	<div class="lessons">
+		<h1>{{ lessons }}</h1>
+		
+
+		{%for sub_topic in sub_topic%}
+
+		<div class="sub_topic">
+			<h2>{{ sub_topic }}</h2>
+				<ul>
+				
+		    		{%for item in sub_topic_list%}
+		    			<li>{{ item}}</li>
+		    		{%endfor%}
+
+		    	</ul>
+
+		{%endfor%}
+
+		    	
+		</div>
+
+		{% for sub_topic2 in sub_topic2 %}	
+
+		<div class="sub_topic">
+			<h2>{{ sub_topic2 }}</h2>
+				<ul>
+		    		{%for item in sub_topic_list2%}
+		    			<li>{{ item }}</li>
+		    		{%endfor%}
+		    	</ul>
+
+		</div>    	
+		
+		{%endfor%}
+
+	{% for sub_topic3 in sub_topic3 %}	
+
+		<div class="sub_topic">
+			<h2>{{ sub_topic3 }}</h2>
+				<ul>
+		    		{%for item in sub_topic_list3%}
+		    			<li>{{ item }}</li>
+		    		{%endfor%}
+		    	</ul>
+
+		</div>    	
+		
+		{%endfor%}	
+
+	{% for sub_topic4 in sub_topic4 %}	
+
+		<div class="sub_topic">
+			<h2>{{ sub_topic4 }}</h2>
+				<ul>
+		    		{%for item in sub_topic_list4%}
+		    			<li>{{ item }}</li>
+		    		{%endfor%}
+		    	</ul>
+		{%endfor%}
+		</div>    	
+		</div>
+		{%endfor%}	
+
+
+
+
+{% endblock %}
+

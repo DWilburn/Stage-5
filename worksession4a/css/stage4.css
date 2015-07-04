@@ -1,0 +1,83 @@
+/* defines universal styling */
+* {margin: 0px;
+   background: url(" ../css/computer.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+	font: Arial;
+	font-size: large;
+		
+}
+
+
+.codepen_para {
+  color:blue;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.codepen_para a {
+  color: white;
+}
+
+
+
+
+.cp_embed {
+  
+  margin-right: 0%;
+  margin-left: 5%;
+}
+
+
+/* begin adding box and border styling */
+div {
+	padding: 10px;
+	margin: 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+
+
+
+
+div.sub_topic {
+	border-width: 15px;
+	border-style: double;
+	border-color: darkgrey;
+}
+
+
+
+h1 {
+	font-size: 150%;
+	color: darkblue;
+  	text-align: center;
+}
+
+h2 {
+	color: Darkblue;
+	font: Arial;
+	font-size: 125%;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+h3 {
+  color: darkblue
+  font: arial
+  font-style: normal;
+}
+
+header {
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+	
+
+
